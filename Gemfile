@@ -47,8 +47,7 @@ end
 #gem 'thin', group: :development
 
 # New Relic for monitoring the app
-gem 'newrelic_rpm'
-
+gem 'newrelic_rpm', '~> 3.7.3.204'
 # Use Capistrano for deployment
 # gem 'capistrano', group: :development
 
