@@ -39,6 +39,9 @@ end
 gem 'unicorn', group: :production
 gem 'thin', group: :development
 
+# New Relic for monitoring the app
+gem 'newrelic_rpm'
+
 # Use Capistrano for deployment
 # gem 'capistrano', group: :development
 
