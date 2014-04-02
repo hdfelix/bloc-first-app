@@ -36,8 +36,8 @@ end
 # gem 'bcrypt', '~> 3.1.7'
 
 # Server to use as the app server
-gem 'unicorn', group: :production
-gem 'thin', group: :development
+#gem 'unicorn', group: :production
+#gem 'thin', group: :development
 
 # New Relic for monitoring the app
 gem 'newrelic_rpm'
